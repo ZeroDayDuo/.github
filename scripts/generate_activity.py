@@ -54,11 +54,11 @@ def generate_svgs(commit_counts, out_dir):
     height = start_y + (rows * (dot_size + gap)) + 40
 
     colors = {
-        0: "#161b22",
-        1: "#0e4429",
-        2: "#006d32",
-        3: "#26a641",
-        4: "#39d353"
+        0: "#121927",
+        1: "#0a3a40",
+        2: "#057a6e",
+        3: "#00bfa5",
+        4: "#00f2fe"
     }
 
     now = datetime.now(timezone.utc)
@@ -94,10 +94,10 @@ def generate_svgs(commit_counts, out_dir):
     svg = []
     svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">')
     svg.append('<style>')
-    svg.append('.bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 8px; }')
-    svg.append('.title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #e6edf3; letter-spacing: 0.5px; }')
-    svg.append('.badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10px; font-weight: 500; fill: #58a6ff; }')
-    svg.append('.lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10px; fill: #7d8590; }')
+    svg.append('.bg { fill: #080c14; stroke: #19273c; stroke-width: 1.2px; rx: 10px; }')
+    svg.append('.title { font-family: monospace, -apple-system, sans-serif; font-size: 13px; font-weight: 700; fill: #e2e8f0; letter-spacing: 1px; }')
+    svg.append('.badge { font-family: monospace, sans-serif; font-size: 10px; font-weight: 600; fill: #00f2fe; letter-spacing: 1px; }')
+    svg.append('.lbl { font-family: monospace, -apple-system, sans-serif; font-size: 10px; fill: #64748b; }')
     svg.append('.dot { rx: 2.5px; ry: 2.5px; }')
     svg.append('</style>')
     svg.append(f'<rect width="{width}" height="{height}" class="bg" />')
@@ -143,16 +143,16 @@ def generate_svgs(commit_counts, out_dir):
     svg_s = []
     svg_s.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width_s}" height="{height_s}" viewBox="0 0 {width_s} {height_s}" fill="none">')
     svg_s.append('<style>')
-    svg_s.append('.bg { fill: #0b0e14; stroke: #21262d; stroke-width: 1px; rx: 8px; }')
-    svg_s.append('.title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; font-weight: 600; fill: #e6edf3; letter-spacing: 0.5px; }')
-    svg_s.append('.badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10px; font-weight: 500; fill: #39d353; }')
-    svg_s.append('.grid-dot { rx: 2.5px; ry: 2.5px; fill: #161b22; }')
-    svg_s.append('.lit-1 { fill: #0e4429; }')
-    svg_s.append('.lit-2 { fill: #006d32; }')
-    svg_s.append('.lit-3 { fill: #26a641; }')
-    svg_s.append('.lit-4 { fill: #39d353; }')
-    svg_s.append('.snake-head { fill: #58a6ff; rx: 3px; filter: drop-shadow(0 0 4px #58a6ff); }')
-    svg_s.append('.snake-body { fill: #1f6feb; rx: 2.5px; opacity: 0.85; }')
+    svg_s.append('.bg { fill: #080c14; stroke: #19273c; stroke-width: 1.2px; rx: 10px; }')
+    svg_s.append('.title { font-family: monospace, -apple-system, sans-serif; font-size: 13px; font-weight: 700; fill: #e2e8f0; letter-spacing: 1px; }')
+    svg_s.append('.badge { font-family: monospace, sans-serif; font-size: 10px; font-weight: 600; fill: #00f2fe; letter-spacing: 1px; }')
+    svg_s.append('.grid-dot { rx: 2.5px; ry: 2.5px; fill: #121927; }')
+    svg_s.append('.lit-1 { fill: #0a3a40; }')
+    svg_s.append('.lit-2 { fill: #057a6e; }')
+    svg_s.append('.lit-3 { fill: #00bfa5; }')
+    svg_s.append('.lit-4 { fill: #00f2fe; }')
+    svg_s.append('.snake-head { fill: #00f2fe; rx: 3px; filter: drop-shadow(0 0 5px #00f2fe); }')
+    svg_s.append('.snake-body { fill: #38bdf8; rx: 2.5px; opacity: 0.85; }')
     svg_s.append('@keyframes snakeMove {')
     svg_s.append('  0% { transform: translate(0px, 0px); }')
     svg_s.append('  25% { transform: translate(160px, 0px); }')

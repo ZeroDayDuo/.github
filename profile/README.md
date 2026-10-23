@@ -1,22 +1,42 @@
 <div align="center">
 
-# ⚡ ZERO DAY DUO
-### *Quiet engineering. Relentless execution.*
-
-> *Building resilient systems in silence. Operating beyond the visible spectrum, where precision meets the perimeter.*
+![ZeroDayDuo](assets/banner.svg)
 
 <br/>
 
-### 🌐 System Activity Matrix
-![System Activity Matrix](assets/activity-matrix.svg)
+```text
+[ 0x00 // STEALTH ENCLAVE ]   •   [ ZERO NOISE ]   •   [ NOCTURNAL CADENCE ]
+```
 
 <br/>
 
-### 🐍 Autonomous Execution Trail
-![Autonomous Execution Trail](assets/snake.svg)
+> *"We don't build for the daylight; we engineer for the storm.*  
+> *Two minds in continuous resonance, operating beyond the visible perimeter.*  
+> *Code crafted in silence. Architecture forged in depth."*
 
 <br/>
 
-<sub>All research and operations are conducted within private enclaves.</sub>
+---
+
+### `// CADENCE PULSE`
+![Cadence Matrix](assets/activity-matrix.svg)
+
+<br/>
+
+### `// AUTONOMOUS PATROL`
+![Autonomous Patrol](assets/snake.svg)
+
+<br/>
+
+```text
+$ ./pulse --status
+[✓] ENCLAVE: SECURED
+[✓] TELEMETRY: ACTIVE
+[✓] NOISE RATIO: 0.00%
+```
+
+<br/>
+
+<sub>⚡ <b>ZeroDayDuo</b> • Where precision meets the perimeter.</sub>
 
 </div>

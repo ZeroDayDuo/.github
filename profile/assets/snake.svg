@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="775" height="180" viewBox="0 0 775 180" fill="none">
 <style>
-.bg { fill: #0b0e14; stroke: #21262d; stroke-width: 1px; rx: 8px; }
-.title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; font-weight: 600; fill: #e6edf3; letter-spacing: 0.5px; }
-.badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10px; font-weight: 500; fill: #39d353; }
-.grid-dot { rx: 2.5px; ry: 2.5px; fill: #161b22; }
-.lit-1 { fill: #0e4429; }
-.lit-2 { fill: #006d32; }
-.lit-3 { fill: #26a641; }
-.lit-4 { fill: #39d353; }
-.snake-head { fill: #58a6ff; rx: 3px; filter: drop-shadow(0 0 4px #58a6ff); }
-.snake-body { fill: #1f6feb; rx: 2.5px; opacity: 0.85; }
+.bg { fill: #080c14; stroke: #19273c; stroke-width: 1.2px; rx: 10px; }
+.title { font-family: monospace, -apple-system, sans-serif; font-size: 13px; font-weight: 700; fill: #e2e8f0; letter-spacing: 1px; }
+.badge { font-family: monospace, sans-serif; font-size: 10px; font-weight: 600; fill: #00f2fe; letter-spacing: 1px; }
+.grid-dot { rx: 2.5px; ry: 2.5px; fill: #121927; }
+.lit-1 { fill: #0a3a40; }
+.lit-2 { fill: #057a6e; }
+.lit-3 { fill: #00bfa5; }
+.lit-4 { fill: #00f2fe; }
+.snake-head { fill: #00f2fe; rx: 3px; filter: drop-shadow(0 0 5px #00f2fe); }
+.snake-body { fill: #38bdf8; rx: 2.5px; opacity: 0.85; }
 @keyframes snakeMove {
   0% { transform: translate(0px, 0px); }
   25% { transform: translate(160px, 0px); }
