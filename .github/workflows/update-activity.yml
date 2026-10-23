@@ -1,0 +1,40 @@
+name: Update Live Activity Grid
+
+on:
+  schedule:
+    # Runs automatically every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-grid:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Re-calculate Live Activity Matrix
+        env:
+          ORG_TOKEN: ${{ secrets.ORG_TOKEN }}
+        run: |
+          python scripts/generate_activity.py
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/ profile/assets/
+          if git diff --staged --quiet; then
+            echo "No activity changes to commit."
+          else
+            git commit -m "chore: synchronize live activity grid"
+            git push
+          fi
