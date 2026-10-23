@@ -7,11 +7,13 @@
 
 <br/>
 
-![Activity](assets/activity-matrix.svg)
+### 🌐 System Activity Matrix
+![System Activity Matrix](assets/activity-matrix.svg)
 
 <br/>
 
-![Activity Trail](assets/snake.svg)
+### 🐍 Autonomous Execution Trail
+![Autonomous Execution Trail](assets/snake.svg)
 
 <br/>
 
