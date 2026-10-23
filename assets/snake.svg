@@ -1,26 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="180" viewBox="0 0 780 180" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="775" height="175" viewBox="0 0 775 175" fill="none">
 <style>
 .bg { fill: #0b0e14; stroke: #21262d; stroke-width: 1px; rx: 8px; }
-.title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; font-weight: 600; fill: #58a6ff; }
 .grid-dot { rx: 2.5px; ry: 2.5px; fill: #161b22; }
 .lit-1 { fill: #0e4429; }
 .lit-2 { fill: #006d32; }
 .lit-3 { fill: #26a641; }
 .lit-4 { fill: #39d353; }
-.snake-head { fill: #00e5ff; rx: 3px; filter: drop-shadow(0 0 4px #00e5ff); }
-.snake-body { fill: #388bfd; rx: 2.5px; opacity: 0.85; }
+.snake-head { fill: #58a6ff; rx: 3px; filter: drop-shadow(0 0 3px #58a6ff); }
+.snake-body { fill: #1f6feb; rx: 2.5px; opacity: 0.85; }
 @keyframes snakeMove {
   0% { transform: translate(0px, 0px); }
-  20% { transform: translate(150px, 0px); }
-  40% { transform: translate(150px, 45px); }
-  60% { transform: translate(350px, 45px); }
-  80% { transform: translate(350px, 15px); }
+  25% { transform: translate(160px, 0px); }
+  50% { transform: translate(160px, 45px); }
+  75% { transform: translate(320px, 45px); }
   100% { transform: translate(0px, 0px); }
 }
-.snake-group { animation: snakeMove 14s ease-in-out infinite alternate; }
+.snake-group { animation: snakeMove 12s ease-in-out infinite alternate; }
 </style>
-<rect width="780" height="180" class="bg" />
-<text x="20" y="24" class="title">?? Contribution Activity Trail (Autonomous Agent Run)</text>
+<rect width="775" height="175" class="bg" />
 <rect x="35" y="45" width="11" height="11" class="lit-3" />
 <rect x="35" y="60" width="11" height="11" class="grid-dot" />
 <rect x="35" y="75" width="11" height="11" class="grid-dot" />
