@@ -357,7 +357,7 @@
 <rect x="740" y="90" width="11" height="11" class="lit-1" />
 <rect x="740" y="105" width="11" height="11" class="lit-2" />
 <rect x="740" y="120" width="11" height="11" class="lit-4" />
-<rect x="740" y="135" width="11" height="11" class="lit-2" />
+<rect x="740" y="135" width="11" height="11" class="lit-3" />
 <g class="snake-group">
 <rect x="230" y="90" width="11" height="11" class="snake-head" />
 <rect x="215" y="90" width="11" height="11" class="snake-body" />
