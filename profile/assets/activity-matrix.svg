@@ -388,7 +388,7 @@
 <rect x="800" y="110" width="11" height="11" fill="#057a6e" class="dot" />
 <rect x="800" y="125" width="11" height="11" fill="#00f2fe" class="dot" />
 <rect x="800" y="140" width="11" height="11" fill="#00bfa5" class="dot" />
-<rect x="815" y="50" width="11" height="11" fill="#0a3a40" class="dot" />
+<rect x="815" y="50" width="11" height="11" fill="#00f2fe" class="dot" />
 <rect x="815" y="65" width="11" height="11" fill="#121927" class="dot" />
 <rect x="815" y="80" width="11" height="11" fill="#121927" class="dot" />
 <rect x="815" y="95" width="11" height="11" fill="#121927" class="dot" />
