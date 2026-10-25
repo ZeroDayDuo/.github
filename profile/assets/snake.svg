@@ -351,7 +351,7 @@
 <rect x="725" y="105" width="11" height="11" class="lit-2" />
 <rect x="725" y="120" width="11" height="11" class="lit-4" />
 <rect x="725" y="135" width="11" height="11" class="lit-3" />
-<rect x="740" y="45" width="11" height="11" class="grid-dot" />
+<rect x="740" y="45" width="11" height="11" class="lit-1" />
 <rect x="740" y="60" width="11" height="11" class="grid-dot" />
 <rect x="740" y="75" width="11" height="11" class="grid-dot" />
 <rect x="740" y="90" width="11" height="11" class="grid-dot" />
