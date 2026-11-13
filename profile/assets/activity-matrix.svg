@@ -521,8 +521,9 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 <rect x="818" y="92" width="11" height="11" rx="2.5" fill="#5ef4ff" class="hot" style="animation-delay:-2.4s"><title>2026-11-10: 72 commits</title></rect>
 <rect x="818" y="107" width="11" height="11" rx="2.5" fill="#5ef4ff" class="hot" style="animation-delay:-2.8s"><title>2026-11-11: 24 commits</title></rect>
 <rect x="818" y="122" width="11" height="11" rx="2.5" fill="#5ef4ff" class="hot" style="animation-delay:-3.2s"><title>2026-11-12: 56 commits</title></rect>
+<rect x="818" y="137" width="11" height="11" rx="2.5" fill="#111a2b"><title>2026-11-13: 0 commits</title></rect>
 </g>
-<rect class="ring" x="818" y="122" width="11" height="11" rx="2.5"/>
+<rect class="ring" x="818" y="137" width="11" height="11" rx="2.5"/>
 <text x="20" y="191" class="stat" xml:space="preserve"><tspan class="num">1268</tspan> commits   <tspan class="num">34</tspan> active days   <tspan class="num">6d</tspan> streak</text>
 <text x="720" y="191" text-anchor="end" class="lbl">Less</text>
 <rect x="728" y="182" width="11" height="11" rx="2.5" fill="#111a2b"/>
