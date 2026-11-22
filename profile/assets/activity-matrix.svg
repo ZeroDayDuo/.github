@@ -515,10 +515,10 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 <rect x="803" y="152" width="11" height="11" rx="2.5" fill="#5ef4ff" class="hot" style="animation-delay:-1.2s"><title>2026-11-21: 13 commits</title></rect>
 </g>
 <g class="col" style="animation-delay:832ms">
-<rect x="818" y="62" width="11" height="11" rx="2.5" fill="#5ef4ff" class="hot" style="animation-delay:-1.6s"><title>2026-11-22: 33 commits</title></rect>
+<rect x="818" y="62" width="11" height="11" rx="2.5" fill="#5ef4ff" class="hot" style="animation-delay:-1.6s"><title>2026-11-22: 37 commits</title></rect>
 </g>
 <rect class="ring" x="818" y="62" width="11" height="11" rx="2.5"/>
-<text x="20" y="191" class="stat" xml:space="preserve"><tspan class="num">1866</tspan> commits   <tspan class="num">44</tspan> active days   <tspan class="num">16d</tspan> streak</text>
+<text x="20" y="191" class="stat" xml:space="preserve"><tspan class="num">1870</tspan> commits   <tspan class="num">44</tspan> active days   <tspan class="num">16d</tspan> streak</text>
 <text x="720" y="191" text-anchor="end" class="lbl">Less</text>
 <rect x="728" y="182" width="11" height="11" rx="2.5" fill="#111a2b"/>
 <rect x="742" y="182" width="11" height="11" rx="2.5" fill="#0b3b46"/>
