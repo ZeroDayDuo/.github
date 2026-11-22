@@ -62,6 +62,7 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 @keyframes e359 { 0%, 95.68% { opacity: 1; } 95.98%, 97.5% { opacity: 0; } 100% { opacity: 1; } }
 @keyframes e358 { 0%, 95.41% { opacity: 1; } 95.71%, 97.5% { opacity: 0; } 100% { opacity: 1; } }
 @keyframes e357 { 0%, 95.14% { opacity: 1; } 95.44%, 97.5% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes e364 { 0%, 96.00% { opacity: 1; } 96.30%, 97.5% { opacity: 0; } 100% { opacity: 1; } }
 @keyframes patrol {
 0.000% { transform: translate(38px, 46px); opacity: 0; }
 1.622% { transform: translate(38px, 136px); opacity: 1; }
@@ -587,6 +588,7 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 <rect class="food" style="animation-name:e359" x="803" y="106" width="11" height="11" rx="2.5" fill="#5ef4ff"/>
 <rect class="food" style="animation-name:e358" x="803" y="121" width="11" height="11" rx="2.5" fill="#5ef4ff"/>
 <rect class="food" style="animation-name:e357" x="803" y="136" width="11" height="11" rx="2.5" fill="#5ef4ff"/>
+<rect class="food" style="animation-name:e364" x="818" y="46" width="11" height="11" rx="2.5" fill="#5ef4ff"/>
 <rect class="seg" style="animation-delay:-0.124s" width="11" height="11" rx="2.5" fill="#1f6690"/>
 <rect class="seg" style="animation-delay:-0.249s" width="11" height="11" rx="2.5" fill="#2782b3"/>
 <rect class="seg" style="animation-delay:-0.373s" width="11" height="11" rx="2.5" fill="#2f9fd6"/>
